@@ -1,0 +1,21 @@
+/** mixins  **/
+body {
+  height: 1200px; }
+
+.progress {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%; }
+  .progress .progress-bar {
+    height: .5rem;
+    background: #57bf99;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #57bf99 1%, #51abcc 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #57bf99 1%, #51abcc 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #57bf99 1%, #51abcc 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57bf99', endColorstr='#51abcc',GradientType=1 );
+    /* IE6-9 */ }
